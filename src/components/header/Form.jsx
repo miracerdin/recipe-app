@@ -26,7 +26,7 @@ const Form = () => {
   }, []);
 
   return (
-    <section>
+    <section className="section section-form">
       <form onSubmit={handleSubmit}>
         <input
           type="text"

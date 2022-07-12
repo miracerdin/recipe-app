@@ -8,17 +8,20 @@ import Detail from "./pages/detail/Detail";
 import Login from "./pages/login/Login";
 import NotFound from "./pages/notfound/NotFound";
 import Recipe from "./components/Recipe";
+import PrivateRouter from "./router/PrivateRouter";
 
 function App() {
   return (
     <>
       <BrowserRouter>
-        <Navbar />
         {/* <Header /> */}
+        <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Login />} />
+          <Route path="/home" element={<PrivateRouter />}>
+            <Route path="" element={<Home />} />
+          </Route>
           <Route path="/about" element={<About />} />
-          <Route path="/login" element={<Login />} />
           <Route path="/detail" element={<Detail />} />
           <Route path="/recipe/:id" element={<Recipe />} />
 

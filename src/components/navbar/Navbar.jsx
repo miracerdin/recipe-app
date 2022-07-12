@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-md navbar-light">
       <div className="container-fluid">
-        <Link to="/" className="navbar-brand">
+        <Link to="/home" className="navbar-brand">
           <img src={logo} alt="" width="150px" />
         </Link>
         <button
@@ -31,21 +31,24 @@ const Navbar = () => {
             </li>
 
             <li className="nav-item">
-              <NavLink
-                style={({ isActive }) => ({ color: isActive && "red" })}
-                to="/github"
+              <a
                 className="nav-link"
-                aria-current="page"
+                href="https://github.com/miracerdin"
+                target="_blank"
               >
                 Github
-              </NavLink>
+              </a>
             </li>
             <li className="nav-item">
               <NavLink
                 style={({ isActive }) => ({ color: isActive && "red" })}
-                to="/login"
+                to="/"
                 className="nav-link"
                 aria-current="page"
+                onClick={() => {
+                  localStorage.clear();
+                  window.reload();
+                }}
               >
                 Logout
               </NavLink>

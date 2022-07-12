@@ -11,16 +11,18 @@ const RecipeList = ({ data }) => {
   console.log(data);
 
   return (
-    <section>
+    <section className="recipe-list">
       {data.map((item, index) => {
         const card = item.recipe;
         const id = new Date().getTime();
         const cards = { ...card, id: id };
         console.log(cards.id);
         return (
-          <div key={index}>
-            <h2>{cards.label}</h2>
-            <img src={cards.image} alt={cards.cautions} />
+          <div key={index} className="recipe-div">
+            <h3>{cards.label}</h3>
+            <div className="image-div">
+              <img src={cards.image} alt={cards.cautions} />
+            </div>
             <button
               className="btn"
               onClick={() => navigate(`/recipe/${id}`, { state: cards })}

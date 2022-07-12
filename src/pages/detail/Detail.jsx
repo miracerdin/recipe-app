@@ -1,7 +1,11 @@
 import React from "react";
 
 const Detail = () => {
-  return <div>Detail</div>;
+  return (
+    <div>
+      <a href="https://github.com/miracerdin">Github</a>
+    </div>
+  );
 };
 
 export default Detail;
