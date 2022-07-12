@@ -1,9 +1,5 @@
 import React from "react";
-import Loading from "./Loading";
 import { useNavigate } from "react-router-dom";
-
-// import { useGlobalContext } from "../context";
-import Recipe from "./Recipe";
 
 const RecipeList = ({ data }) => {
   const navigate = useNavigate();

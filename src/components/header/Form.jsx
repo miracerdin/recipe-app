@@ -8,6 +8,7 @@ const Form = () => {
   const [meal, setMeal] = useState("chicken");
   const [mealtype, setMealType] = useState("dinner");
   const [data, setData] = useState([]);
+  const [isLoading, setIsLoading] = useState(false);
   const url = `https://api.edamam.com/api/recipes/v2?type=public&q=${meal}&app_id=9238c056&app_key=37ab4e858b8653f8de1c56808a7e51c8&mealType=${mealtype}
 `;
   const handleSubmit = (e) => {
@@ -20,11 +21,14 @@ const Form = () => {
     const data = await response.json();
     console.log(data.hits);
     setData(data.hits);
+    setIsLoading(true);
   };
   useEffect(() => {
     fetchData();
   }, []);
-
+  if (!isLoading) {
+    return <div>Loading..</div>;
+  }
   return (
     <section className="section section-form">
       <form onSubmit={handleSubmit}>

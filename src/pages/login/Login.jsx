@@ -15,7 +15,7 @@ const Login = () => {
     // }
   };
   return (
-    <div>
+    <div className="form-out">
       {getName && getPassword ? (
         <Home />
       ) : (

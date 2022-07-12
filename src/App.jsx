@@ -21,7 +21,9 @@ function App() {
           <Route path="/home" element={<PrivateRouter />}>
             <Route path="" element={<Home />} />
           </Route>
-          <Route path="/about" element={<About />} />
+          <Route path="/about" element={<PrivateRouter />}>
+            <Route path="" element={<About />} />
+          </Route>
           <Route path="/detail" element={<Detail />} />
           <Route path="/recipe/:id" element={<Recipe />} />
 
