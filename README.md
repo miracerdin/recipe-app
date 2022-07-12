@@ -8,7 +8,7 @@ Project aims to create a Recipe App.
 
 ## Problem Statement
 
-- We are adding a new project to our portfolios. So you and your colleagues have started to work on the project.
+- We are adding a new project to our portfolios.
 
 ## Project Skeleton
 
