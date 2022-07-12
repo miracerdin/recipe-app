@@ -5,7 +5,7 @@ import logo from "../../assets/home.svg";
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-md navbar-light">
-      <div className="container-fluid">
+      <div className="container">
         <Link to="/home" className="navbar-brand">
           <img src={logo} alt="" width="150px" />
         </Link>

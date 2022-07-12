@@ -5,8 +5,8 @@ import RecipeList from "../RecipeList";
 // `https://api.edamam.com/search?q=${meal}&app_id=9238c056&app_key=37ab4e858b8653f8de1c56808a7e51c8&mealType=${mealtype}`;
 const Form = () => {
   //   const { setSearchTerm } = useGlobalContext();
-  const [meal, setMeal] = useState("meal");
-  const [mealtype, setMealType] = useState("breakfast");
+  const [meal, setMeal] = useState("chicken");
+  const [mealtype, setMealType] = useState("dinner");
   const [data, setData] = useState([]);
   const url = `https://api.edamam.com/api/recipes/v2?type=public&q=${meal}&app_id=9238c056&app_key=37ab4e858b8653f8de1c56808a7e51c8&mealType=${mealtype}
 `;

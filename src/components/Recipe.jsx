@@ -17,7 +17,7 @@ const Recipe = () => {
   // useEffect(() => {
   //   fetch();
   // });
-  const { label: name, image: image, ingredientLines, totalNutrients } = cards;
+  const { label: name, image, ingredientLines, totalNutrients } = cards;
   const {
     CA: calcium,
     CHOCDF: Carbs,
@@ -52,8 +52,8 @@ const Recipe = () => {
       <img src={image} alt={cards.name} />
 
       <ol>
-        {ingredientLines.map((item) => {
-          return <li>{Object.values(item)}</li>;
+        {ingredientLines.map((item, index) => {
+          return <li key={index}>{item}</li>;
         })}
       </ol>
     </div>

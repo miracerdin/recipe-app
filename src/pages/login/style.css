@@ -3,7 +3,7 @@
   width: 100%;
   font-size: 18px;
 }
-button {
+form button {
   height: 30px;
   width: 25%;
   font-size: 20px;
@@ -25,4 +25,7 @@ form {
 }
 .form-group {
   width: 250px;
+}
+.recipe-div button {
+  margin-top: 5px;
 }

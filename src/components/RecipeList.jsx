@@ -24,7 +24,7 @@ const RecipeList = ({ data }) => {
               <img src={cards.image} alt={cards.cautions} />
             </div>
             <button
-              className="btn"
+              className="btn btn-primary "
               onClick={() => navigate(`/recipe/${id}`, { state: cards })}
             >
               Detail
