@@ -13,7 +13,7 @@
 .create p,
 h1 {
   text-align: center;
-  color: red;
+  color: purple;
   transition: all 0.5s ease-in-out;
 }
 .create p:hover,

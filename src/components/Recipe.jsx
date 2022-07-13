@@ -1,7 +1,5 @@
 import { useParams, useNavigate, useLocation } from "react-router-dom";
-import { useState, useEffect } from "react";
-import NotFound from "../pages/notfound/NotFound";
-
+import Div from "./Recipe.styled";
 const Recipe = () => {
   //! Linkteki parametreyi almak icin useParams Hook'u kullanilabilir.
   const { id } = useParams();
@@ -27,7 +25,7 @@ const Recipe = () => {
     PROCNT: Protein,
   } = totalNutrients;
   return (
-    <div className="cards">
+    <Div className="cards">
       <ul>
         <h4>Nutrients</h4>
         <li>
@@ -56,7 +54,7 @@ const Recipe = () => {
           return <li key={index}>{item}</li>;
         })}
       </ol>
-    </div>
+    </Div>
   );
 };
 
