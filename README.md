@@ -4,10 +4,18 @@ Simple recipe app created with React.js
 
 ## Table of contents
 
-- [General info](#general-info)
-- [Technologies](#technologies)
-- [Setup](#setup)
-- [Project Skeleton](#project-skeleton)
+- [Project: Recipe App](#project-recipe-app)
+  - [Table of contents](#table-of-contents)
+  - [General info](#general-info)
+  - [Technologies](#technologies)
+  - [Setup](#setup)
+  - [Illustrations](#illustrations)
+  - [Project Skeleton](#project-skeleton)
+  - [Objective](#objective)
+    - [At the end of the project, i will be able to;](#at-the-end-of-the-project-i-will-be-able-to)
+  - [Steps to Solution](#steps-to-solution)
+  - [Notes](#notes)
+  - [Contact](#contact)
 
 ## General info
 
