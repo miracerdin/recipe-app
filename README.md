@@ -7,6 +7,7 @@ Simple recipe app created with React.js
 - [General info](#general-info)
 - [Technologies](#technologies)
 - [Setup](#setup)
+- [Project Skeleton](#project-skeleton)
 
 ## General info
 
@@ -14,16 +15,26 @@ In this project, I pulled data with asyncron structure using Fetch API. I have c
 
 ## Technologies
 
-<h6>HTML 5</h6>
-<h6>CSS 3</h6>
-<h6>Bootstrap 5.2</h6>
-<h6>Javascript</h6>
-<h6>React</h6>
-<h6>React router v6, useState, useEffect,useRef, PrivateRouter,useNavigate,useParam,useLocation</h6>
+- HTML 5
+- CSS 3
+- Bootstrap 5.2
+- Javascript
+- React
+- React router v6, useState, useEffect,useRef, PrivateRouter,useNavigate,useParam,useLocation</
 
-## Problem Statement
+## Setup
 
-- We are adding a new project to our portfolios.
+To run this project, install it locally using npm:
+
+```
+$ git clone https://github.com/miracerdin/recipe-app.git
+$ npm install
+$ npm start
+```
+
+## Illustrations
+
+buraya gif gelecek.
 
 ## Project Skeleton
 
@@ -106,9 +117,7 @@ Build a Recipe App using ReactJS.
 
 - Step 4: i used css framework Bootstrap.
 
-- Step 5 : You can get random login background image from `https://picsum.photos/1600/900`
-
-- Step 6: Added project gif to my project and README.md file.
+- Step 5: Added project gif to my project and README.md file.
 
 ## Notes
 
