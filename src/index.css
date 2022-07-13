@@ -26,12 +26,7 @@ code {
 
   align-items: center;
 }
-/* .section {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  flex-direction: column;
-} */
+
 .recipe-list {
   display: flex;
   width: 100%;
@@ -46,10 +41,6 @@ code {
     rgba(152, 221, 209, 1) 41%
   );
 }
-/* .image-div {
-  width: 250px;
-  height: 250px;
-} */
 .image-div img {
   width: 250px;
   height: 250px;
