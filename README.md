@@ -14,12 +14,12 @@ In this project, I pulled data with asyncron structure using Fetch API. I have c
 
 ## Technologies
 
-HTML 5
-CSS 3
-Bootstrap 5.2
-Javascript
-React
-React router v6, useState, useEffect,useRef, PrivateRouter,useNavigate,useParam,useLocation
+<h6>HTML 5</h6>
+<h6>CSS 3</h6>
+<h6>Bootstrap 5.2</h6>
+<h6>Javascript</h6>
+<h6>React</h6>
+<h6>React router v6, useState, useEffect,useRef, PrivateRouter,useNavigate,useParam,useLocation</h6>
 
 ## Problem Statement
 
