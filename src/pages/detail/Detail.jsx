@@ -13,7 +13,7 @@ const Detail = () => {
         </div>
         <div className={Styled["icon"]}>
           <a href="https://github.com/miracerdin">
-            <FaGithub size={50} color="black" />
+            <FaGithub size={50} color="black" target="_blank" />
           </a>
         </div>
         <div className={Styled["icon"]}>
