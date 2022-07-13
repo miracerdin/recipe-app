@@ -1,4 +1,5 @@
-#root {
+#root,
+html {
   background: rgb(255, 255, 255);
   background: linear-gradient(
     90deg,
