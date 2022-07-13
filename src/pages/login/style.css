@@ -19,6 +19,7 @@ label {
 }
 form {
   text-align: center;
+  height: 100vh;
 }
 .form-inner {
   display: flex;
