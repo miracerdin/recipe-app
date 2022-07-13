@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import RecipeList from "../RecipeList";
+import Form1, { Input, Select, Button, Section1 } from "./Form.styled.jsx";
 // import { useGlobalContext } from "../../context";
 
 // `https://api.edamam.com/search?q=${meal}&app_id=9238c056&app_key=37ab4e858b8653f8de1c56808a7e51c8&mealType=${mealtype}`;
@@ -27,17 +28,17 @@ const Form = () => {
     fetchData();
   }, []);
   if (!isLoading) {
-    return <div>Loading..</div>;
+    return <h2 className="text-center ">Loading..</h2>;
   }
   return (
-    <section className="section section-form">
-      <form onSubmit={handleSubmit}>
-        <input
+    <Section1 className="section section-form">
+      <Form1 onSubmit={handleSubmit} className="form">
+        <Input
           type="text"
           onChange={(e) => setMeal(e.target.value)}
           value={meal}
         />
-        <select
+        <Select
           name="mealtype"
           id="mealtype"
           onChange={(e) => setMealType(e.target.value)}
@@ -48,13 +49,13 @@ const Form = () => {
           <option value="lunch">Lunch</option>
           <option value="snack">Snack</option>
           <option value="teatime">Teatime</option>
-        </select>
-        <button type="submit" onSubmit={handleSubmit}>
+        </Select>
+        <Button type="submit" onSubmit={handleSubmit}>
           Submit
-        </button>
-      </form>
+        </Button>
+      </Form1>
       <RecipeList data={data} />
-    </section>
+    </Section1>
   );
 };
 

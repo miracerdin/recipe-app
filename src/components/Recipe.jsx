@@ -49,7 +49,7 @@ const Recipe = () => {
           {Protein.label}:{Math.trunc(Protein.quantity)}
         </li>
       </ul>
-      <img src={image} alt={cards.name} />
+      <img src={image} alt={cards.name} className="rounded" width="250px" />
 
       <ol>
         {ingredientLines.map((item, index) => {

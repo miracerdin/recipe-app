@@ -1,3 +1,11 @@
+#root {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(152, 221, 209, 1) 41%
+  );
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -5,7 +13,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: aquamarine;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
@@ -15,33 +22,51 @@ code {
   display: flex;
   justify-content: space-around;
   margin-top: 10px;
-  background-color: aqua;
+
   align-items: center;
 }
-.section {
+/* .section {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   flex-direction: column;
-}
+} */
 .recipe-list {
   display: flex;
   width: 100%;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 20px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(152, 221, 209, 1) 41%
+  );
 }
-.recipe-div {
-  width: 300px;
-  text-align: center;
-}
-.recipe-div h3 {
-  padding: 10px;
-  word-wrap: break-word;
-  display: inline-block;
-  box-sizing: border-box;
-}
-/* .image-div img {
+/* .image-div {
   width: 250px;
   height: 250px;
 } */
+.image-div img {
+  width: 250px;
+  height: 250px;
+  border-radius: 5px;
+  border: 1px solid #999;
+  object-fit: cover;
+}
+.recipe-div {
+  text-align: center;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  transition: all 0.3s ease-in-out;
+  border: 1px solid gray;
+  border-radius: 1rem;
+  padding: 0 5px;
+}
+.recipe-div:hover {
+  transform: scale(0.97);
+}
+.recipe-div button:hover {
+  cursor: pointer;
+}
