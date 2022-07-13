@@ -6,7 +6,7 @@ export const Section1 = styled.section`
     rgba(255, 255, 255, 1) 0%,
     rgba(152, 221, 209, 1) 41%
   );
-  padding: 10px;
+  padding: 15px;
 `;
 const Form1 = styled.form`
   background: rgb(255, 255, 255);
@@ -37,7 +37,11 @@ export const Select = styled.select`
   padding: 3px;
 `;
 export const Button = styled.button`
-  border: 1px solid black;
+  height: 30px;
+  width: 20%;
+  font-size: 1rem;
+  transition: all 0.5s ease-in-out;
+
   &:hover {
     transform: scale(0.97);
   }
