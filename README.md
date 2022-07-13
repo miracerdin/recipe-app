@@ -73,7 +73,7 @@ Build a Recipe App using ReactJS.
 
 - ReactJS
 
-### At the end of the project, students will be able to;
+### At the end of the project, i will be able to;
 
 - improve coding skills within HTML & CSS & JS & ReactJS.
 
@@ -85,16 +85,16 @@ Build a Recipe App using ReactJS.
 
 - Step 2: Signup `https://developer.edamam.com/edamam-docs-recipe-api` and get api key.
 
-- Step 3 : Using api key and `axios` for getting data from `https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}&mealType=${meal}`.
+- Step 3 : Using api key and `fetch` for getting data from `https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}&mealType=${meal}`.
 
-- Step 4: You can use css frameworks like Bootstrap, Semantic UI.
+- Step 4: i used css framework Bootstrap.
 
 - Step 5 : You can get random login background image from `https://picsum.photos/1600/900`
 
-- Step 6: Add project gif to your project and README.md file.
+- Step 6: Added project gif to my project and README.md file.
 
 ## Notes
 
-- You can add additional functionalities to your app.
+- You can add make it yourself just work hard.
 
 **<p align="center">&#9786; Happy Coding &#9997;</p>**
