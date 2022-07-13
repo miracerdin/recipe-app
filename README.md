@@ -83,23 +83,9 @@ SOLUTION
 └── yarn.lock
 ```
 
-## Expected Outcome
-
-![Project 004 Snapshot](food-search-app.gif)
-
 ## Objective
 
 Build a Recipe App using ReactJS.
-
-### At the end of the project, following topics are to be covered;
-
-- HTML
-
-- CSS
-
-- JS
-
-- ReactJS
 
 ### At the end of the project, i will be able to;
 
@@ -123,4 +109,9 @@ Build a Recipe App using ReactJS.
 
 - You can add make it yourself just work hard.
 
+## Contact
+
+![LinkedIn](https://www.linkedin.com/in/mirac-erdin/)
+![Gmail](mailto:miracerdin@gmail.com)
+![Phone Number](+90 531 383 9138)
 **<p align="center">&#9786; Happy Coding &#9997;</p>**
