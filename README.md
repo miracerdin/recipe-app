@@ -1,6 +1,4 @@
-<p>This project contains lots of React components and hooks.</p>
-
-# Project-004 : Recipe App (RC-04)
+# Project: Recipe App
 
 ## Description
 
@@ -13,21 +11,23 @@ Project aims to create a Recipe App.
 ## Project Skeleton
 
 ```
-004 - Recipe App (folder)
+ Recipe App
 |
 |----readme.md         # Given to the students (Definition of the project)
 SOLUTION
 ├── public
 │     └── index.html
 ├── src
+|    ├── assets
 │    ├── components
 │    │       ├── header
-│    │       │     ├── Header.js
 │    │       │     ├── Form.js
 │    │       │     └── style.js
-│    │       └── navbar
-│    │             ├── Navbar.js
-│    │             └── style.js
+│    │       ├── navbar
+│    │       |    ├── Navbar.js
+│    │       |      └── style.js
+│    │       ├── Recipe.jsx
+│    │       ├── RecipeList.jsx
 │    ├── pages
 │    │       ├── about
 │    │       │     ├── About.js
@@ -38,14 +38,15 @@ SOLUTION
 │    │       ├── login
 │    │       │     ├── Login.js
 │    │       │     └── style.js
-│    │       └── home
-│    │             ├── Home.js
-│    │             ├── RecipeCard.js
-│    │             └── style.js
+│    │       ├── home
+│    │       |      ├── Home.js
+│    │       |      ├── RecipeCard.js
+│    │       |      └── style.js
+│    │       ├── notfound
+│    │       │     ├── NotFound.jsx
+│    │       │     └── style.js
 │    ├── router
-│    │       └── AppRouter.js
-│    ├── assets
-│    │       └── [images]
+│    │       └── PrivateRouter.jsx
 │    ├── App.js
 │    ├── App.css
 │    ├── index.js
