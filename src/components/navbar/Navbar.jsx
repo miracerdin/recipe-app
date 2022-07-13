@@ -30,14 +30,15 @@ const Navbar = () => {
               </NavLink>
             </li>
 
-            <li className="nav-item">
-              <a
+            <li>
+              <NavLink
+                style={({ isActive }) => ({ color: isActive && "red" })}
+                to="/detail"
                 className="nav-link"
-                href="https://github.com/miracerdin"
-                target="_blank"
+                aria-current="page"
               >
-                Github
-              </a>
+                Contact
+              </NavLink>
             </li>
             <li className="nav-item">
               <NavLink

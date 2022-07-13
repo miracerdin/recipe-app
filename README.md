@@ -1,8 +1,25 @@
 # Project: Recipe App
 
-## Description
+Simple recipe app created with React.js
 
-Project aims to create a Recipe App.
+## Table of contents
+
+- [General info](#general-info)
+- [Technologies](#technologies)
+- [Setup](#setup)
+
+## General info
+
+In this project, I pulled data with asyncron structure using Fetch API. I have created a Login page to access this data I have captured. After logging in, some dishes are shown by default. You can search by entering the name of the meal you want and selecting the meal. To get the details, just click on the Detail button. Since I'm using a React router, you can switch between pages.
+
+## Technologies
+
+HTML 5,
+CSS 3,
+Bootstrap 5.2,
+Javascript,
+React,
+React router v6, useState, useEffect,useRef, PrivateRouter,useNavigate,useParam,useLocation
 
 ## Problem Statement
 

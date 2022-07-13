@@ -1,0 +1,22 @@
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  margin: 3rem;
+  transition: 1s;
+}
+.icon:hover {
+  transform: scale(1.2);
+}
+.create p,
+h1 {
+  text-align: center;
+  color: red;
+  transition: all 0.5s ease-in-out;
+}
+.create p:hover,
+h1:hover {
+  color: black;
+}
