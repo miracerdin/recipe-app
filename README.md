@@ -1,6 +1,6 @@
 # Project: Recipe App
 
-![Click to See](https://recipe-app-two-nu.vercel.app/)
+[Click to See](https://recipe-app-two-nu.vercel.app/)
 Simple recipe app created with React.js
 
 ## Table of contents
