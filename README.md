@@ -43,7 +43,8 @@ $ npm start
 
 ## Illustrations
 
-buraya gif gelecek.
+![recipe app](https://user-images.githubusercontent.com/99042499/178953779-ac5ec12a-037f-4130-82bf-a74c31111ee8.gif)
+
 
 ## Project Skeleton
 
