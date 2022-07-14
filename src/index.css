@@ -55,6 +55,8 @@ code {
   border: 1px solid gray;
   border-radius: 1rem;
   padding: 0 5px;
+  width: 300px;
+  height: 400px;
 }
 .recipe-div:hover {
   transform: scale(0.97);
