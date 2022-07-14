@@ -30,6 +30,11 @@ label {
 .form-group {
   width: 250px;
 }
+.recipe-div {
+  position: relative;
+}
 .recipe-div button {
-  margin-top: 5px;
+  position: absolute;
+  bottom: 10px;
+  transform: translateX(-30%);
 }
