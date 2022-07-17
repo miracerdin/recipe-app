@@ -120,7 +120,14 @@ Build a Recipe App using ReactJS.
 
 ## Contact
 
-![LinkedIn]<img  src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" alt="linkedin" width="15px"/>(https://www.linkedin.com/in/mirac-erdin/)
-![Gmail](mailto:miracerdin@gmail.com)
-![Phone Number](+90 531 383 9138)
+<p>
+  <a href="https://www.linkedin.com/in/mirac-erdin/" rel="nofollow noreferrer">
+    <img src="https://i.stack.imgur.com/gVE0j.png" alt="linkedin"> LinkedIn
+  </a> &nbsp; 
+  <a href="https://github.com/miracerdin" rel="nofollow noreferrer">
+    <img src="https://i.stack.imgur.com/tskMh.png" alt="github"> Github
+  </a>
+</p>
+Phone Number:(+90 531 383 9138)
+**<p align="center">&#9786; Happy Coding &#9997;</p>**
 **<p align="center">&#9786; Happy Coding &#9997;</p>**
