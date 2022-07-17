@@ -45,7 +45,6 @@ $ npm start
 
 ![recipe app](https://user-images.githubusercontent.com/99042499/178953779-ac5ec12a-037f-4130-82bf-a74c31111ee8.gif)
 
-
 ## Project Skeleton
 
 ```
@@ -121,7 +120,7 @@ Build a Recipe App using ReactJS.
 
 ## Contact
 
-![LinkedIn](https://www.linkedin.com/in/mirac-erdin/)
+![LinkedIn]<img  src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" alt="linkedin"/>(https://www.linkedin.com/in/mirac-erdin/)
 ![Gmail](mailto:miracerdin@gmail.com)
 ![Phone Number](+90 531 383 9138)
 **<p align="center">&#9786; Happy Coding &#9997;</p>**
