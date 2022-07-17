@@ -131,3 +131,14 @@ Build a Recipe App using ReactJS.
 Phone Number:(+90 531 383 9138)
 **<p align="center">&#9786; Happy Coding &#9997;</p>**
 **<p align="center">&#9786; Happy Coding &#9997;</p>**
+
+<p>
+  <a href="https://www.linkedin.com/in/mirac-erdin/" rel="nofollow noreferrer">
+    <img src="https://i.stack.imgur.com/gVE0j.png" alt="linkedin"> LinkedIn
+  </a> &nbsp; 
+  <a href="https://github.com/miracerdin" rel="nofollow noreferrer">
+    <img src="https://i.stack.imgur.com/tskMh.png" alt="github"> Github
+  </a>
+</p>
+
+
