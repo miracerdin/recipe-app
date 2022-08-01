@@ -25,6 +25,14 @@ const Form1 = styled.form`
   margin-bottom: 20px;
   text-align: center;
   gap: 3px;
+  @media (max-width: 540px) {
+    width: 70%;
+    padding: 10px 0;
+  }
+  @media (max-width: 390px) {
+    width: 90%;
+    padding: 10px 0;
+  }
 `;
 export const Input = styled.input`
   width: 40%;
